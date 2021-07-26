@@ -5,4 +5,4 @@ if (process.env.NODE_ENV !== 'production') {
     dotenv.config();
 }
 
-hue.getUserName();
+hue.getUserName().then(console.log);
