@@ -1,0 +1,13 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "eslint.validate": ["javascript", "typescript"],
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    "git.ignoreLimitWarning": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
