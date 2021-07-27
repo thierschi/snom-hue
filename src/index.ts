@@ -1,8 +1,8 @@
 import * as dotenv from 'dotenv';
-import * as hue from './service/hue-service';
+import { startApi } from './api';
 
 if (process.env.NODE_ENV !== 'production') {
     dotenv.config();
 }
 
-hue.getUserName().then(console.log);
+startApi();

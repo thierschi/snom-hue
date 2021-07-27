@@ -30,10 +30,12 @@
     "dependencies": {
         "axios": "^0.21.1",
         "dotenv": "^10.0.0",
+        "express": "^4.17.1",
         "lodash": "^4.17.21",
         "node-persist": "^3.1.0"
     },
     "devDependencies": {
+        "@types/express": "^4.17.13",
         "@types/lodash": "^4.14.171",
         "@types/node": "^16.4.3",
         "@types/node-persist": "^3.1.2",
